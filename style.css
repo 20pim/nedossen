@@ -1,0 +1,181 @@
+*{
+	font-family: "Roboto", serif;
+	margin: 0;
+}
+
+head{
+	display: inline-block;
+}
+
+form{
+	position: relative;
+	align-content: right;
+}
+
+nav li span:hover{
+	text-decoration: underline;
+}
+
+#banner{
+	margin-top: 10px;
+	padding-left: 12%;
+}
+
+#prat{
+	max-width: 1200px;
+	margin: auto;
+}
+
+
+li{
+	color: #324f7a;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+
+li span:hover{
+	background-color: #324f7a;
+	color: white;
+}
+
+body{
+	color: grey;
+	background-color: #e8e8e8;
+	text-align: center;
+}
+
+body h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+body p{
+	font-family: 'Comic Sans', cursive;
+}
+
+footer{
+	background-color: #324f7a;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	padding: 12px 0px;
+	margin-top: 20px;
+
+}
+
+#email{
+	background-color: #324f7a;
+	color: #9ec8fd;
+}
+
+h1{
+	text-align: center;
+}
+
+
+nav{
+	background-color: #324f7a;
+	font-size: 14px;
+}
+
+nav li{
+	display: inline-block;
+	color: white;
+	margin-left: 20px;
+}
+
+
+.koronainfo{
+	background-color: rgb(234, 213, 208);
+	color: #324f7a;
+	width: 550px;
+	height: 140px;
+	display: inline-block;
+	text-align: center;
+	margin-top: 25px;
+	margin-left: 30px;
+	margin-bottom: 50px;
+	padding-top: 20px;
+}
+
+.koronalink{
+	background-color: #013243;
+	color: white;
+	padding: 20px;
+	border-width: 2px;
+	text-align: center;
+	border-radius: 4px;
+	position: relative;
+	top: 45px;
+	transition: all 200ms;
+}
+
+.koronalink:hover{
+	background-color: white;
+	border: 2px solid #013243;
+	color: #013243;
+}
+
+#grid-main{
+	display: grid;
+	grid-template: repeat(8, 1fr) / repeat(6, 1fr);
+	grid-gap: 10px 20px;
+	width: 1200px;
+	height: 500px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.box{
+	background-color: white;
+	justify-content: center;
+}
+
+.a{
+	grid-area: 1 / 1 / span 7 / span 3;
+	display: grid;
+	grid-template: repeat(7, 1fr) / 1fr 1fr;
+	align-items: stretch;
+	padding-left: 10px;
+	font-size: 1.1rem;
+	color: #324f7a;
+	background-color: white;
+	text-align: left;
+}
+
+.option{
+	padding-top: 15px;
+}
+
+.option:hover{
+	background-color: #324f7a;
+	color: white;
+}
+
+.b{
+	grid-area: 1 / 4 / span 7 / span 3;
+}
+
+.c{
+	grid-area: 8 / 1 / span 1 / span 1;
+	height: 100px;
+}
+
+.d{
+	grid-area: 8 / 2 / span 1 / span 1;
+}
+
+.e{
+	grid-area: 8 / 3 / span 1 / span 1;
+}
+
+.f{
+	grid-area: 8 / 4 / span 1 / span 3;
+}
+
+.other{
+	display: flex;
+	justify-items: center;
+	align-items: center;
+}
